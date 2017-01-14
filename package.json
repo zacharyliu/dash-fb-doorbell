@@ -1,0 +1,17 @@
+{
+  "name": "dash-fb-doorbell",
+  "version": "0.0.1",
+  "description": "Virtual doorbell which alerts a Facebook group chat when an Amazon Dash Button is pressed.",
+  "main": "index.js",
+  "author": "Zachary Liu <zachary@zacharyliu.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zacharyliu/dash-fb-doorbell.git"
+  },
+  "dependencies": {
+    "dash-button-probe": "^0.0.2",
+    "dotenv": "^4.0.0",
+    "facebook-chat-api": "^1.2.0"
+  }
+}
